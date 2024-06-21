@@ -56,11 +56,11 @@ public class GenericExample : MonoBehaviour
     {
         new GameObject().AddComponent<SpriteRenderer>();
 
-        StructT<Vector3> a;
-        ClassT<GameObject> b;
-        NewT<object> c;
-        ParentT<Parent> d;
-        InterfaceT<String> e;
+        //StructT<Vector3> a;
+        //ClassT<GameObject> b;
+        //NewT<object> c;
+        //ParentT<Parent> d;
+        //InterfaceT<String> e;
     }
 
 }
