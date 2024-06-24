@@ -21,5 +21,7 @@ public class UIEasyToggleTest : MonoBehaviour
             print($"{name} toggle is off");
         }
     }
+    
+
 
 }
