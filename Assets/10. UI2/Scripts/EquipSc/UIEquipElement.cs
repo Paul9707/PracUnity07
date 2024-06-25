@@ -20,15 +20,8 @@ public class UIEquipElement : MonoBehaviour
         nameText.text = $"ÀÌ¸§: {data.equipName}";
         countText.text = $"°¹¼ö: {data.maxCount.ToString()}";
 
-        //EquipManager.Instance.onEquipAmountChange += OnEquipAmountChange;
     }
 
-    //public void OnEquipAmountChange(EquipType type, int count)
-    //{
-    //    if (type == data.equipType)
-    //    {
-    //        countText.text = count.ToString();
-    //    }
-    //}
+  
 
 }
