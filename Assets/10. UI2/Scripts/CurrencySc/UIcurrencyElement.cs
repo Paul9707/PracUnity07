@@ -21,7 +21,8 @@ public class UIcurrencyElement : MonoBehaviour
         iconImage.sprite = data.IconSprite; // 아이콘 교체
         nameText.text = data.currencyName; // 이름 변경
 
-        // 진행봐 최소/ 최대값 할당 
+        // 진행바
+        // 최소/ 최대값 할당 
         progressBar.minValue = 0;
         progressBar.maxValue = data.maxCount;
 
